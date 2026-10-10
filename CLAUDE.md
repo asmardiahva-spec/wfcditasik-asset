@@ -29,7 +29,10 @@ Pillars (check the Pillar column in topics.md and keep this rough mix):
 - **Community (~10%)** — only ideas that need NO photos or member details: "Kenapa kerja bareng bikin lebih semangat", "Kamu tim kopi atau tim matcha?" (comment prompt), WFCbareng invite (every Thursday, no location).
 - **Trending (~10%, only when there's a strong hook)** — react to something current/viral in work, career, AI, remote work or the industry (search the web that morning; prefer Indonesian/Gen Z relevance). Explain what it means for workers and how to stay smart and skillful. Facts must come from real sources; mention the source in the caption.
 
-Photos: never ask Diah for photos or member details. Default to the built-in line drawings. Optionally search her Google Drive for WFCditasik / WFCbareng event photos; use one only if it clearly fits and looks good (polaroid frame), otherwise skip photos.
+Photos: never ask Diah for photos or member details. Default to the built-in line drawings. Optionally use real event photos from her Google Drive (Google Drive connector) when they clearly fit and look good (polaroid frame), otherwise skip photos:
+- "2026 - RW Hangout" folder id 1RSPFzpm8nWWF9nDJTukU7g5Q5j4Dbg2G (Remote Worker Hangout = RWH, sister community of WFCditasik): subfolders RW Hangout Vol 1–4, e.g. Vol 3 > "Foto" (1W_cQB8oBzJpjUrlebUkdKhpJPJiph9kZ, 100+ photos), Vol 2 > "Vol 2" (1i7TXBMVp19EqLuBQWpYikPXd989tlT5P)
+- "2026 - WFCditasik" folder id 1LppiND7ro_4KpNzwKB17ajSWApEVnubW (subfolder "WFCbareng Dokum")
+- Most files are iPhone HEIC: convert with `pip install --break-system-packages pillow-heif` then Pillow (register_heif_opener) to JPG before use. Look at a photo before using it; pick bright, natural, flattering shots; never a close-up of one identifiable person without context.
 
 ## Metricool
 - Brand blogId 4176662 (Instagram @wfcditasik), timezone Asia/Jakarta.
