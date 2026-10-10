@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Tip 2: Pilih cafe sesuai kerjaan</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&amp;family=Caveat:wght@600;700&amp;display=swap">
+<style>body{margin:0}</style>
+</helmet>
+<div style="width: 1080px; height: 1350px; box-sizing: border-box; padding: 88px; background: #FFFFFF; color: #2B2424; font-family: 'Plus Jakarta Sans', sans-serif; display: flex; flex-direction: column; justify-content: space-between">
+<div style="display: flex; justify-content: space-between; align-items: center; font-size: 24px; font-weight: 500; color: #6E605B">
+<span>Tips WFC  /  Tip 02</span>
+<span>03 / 07</span>
+</div>
+<div style="display: flex; flex-direction: column; gap: 36px">
+<div style="display: flex; align-items: center; gap: 28px">
+<span style="flex: none; width: 104px; height: 104px; border-radius: 22px; background: #EEF3E2; display: flex; align-items: center; justify-content: center"><svg width="68" height="68" viewBox="0 0 64 64" fill="none" stroke="{{maroon}}" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 26a34 34 0 0 1 48 0M16 34a22 22 0 0 1 32 0M24 42a10 10 0 0 1 16 0"></path><circle cx="32" cy="50" r="3.5" fill="{{maroon}}"></circle></svg></span>
+<span style="font-family: 'Caveat', cursive; font-weight: 700; font-size: 56px; color: {{maroon}}; transform: rotate(-3deg)">tip no. 2</span>
+</div>
+<h2 style="margin: 0; font-weight: 800; font-size: 88px; line-height: 1.04; letter-spacing: -0.04em; color: {{maroon}}">Pilih cafe sesuai jenis kerjaan.</h2>
+<p style="margin: 0; font-size: 36px; line-height: 1.45">Tiap kerjaan butuh suasana yang beda. Cocokkan cafe-nya dengan agenda hari ini.</p>
+<div style="display: flex; flex-direction: column; background: #FFFFFF; border: 2px solid #E6DCCF; border-radius: 16px; overflow: hidden">
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; padding: 20px 32px; font-size: 22px; font-weight: 700; letter-spacing: 0.08em; color: #6E605B; background: #F7F7F4">
+<span>KERJAAN</span>
+<span>FILTER DI WFCDITASIK</span>
+</div>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; align-items: center; padding: 24px 32px; border-top: 2px solid #E6DCCF; font-size: 30px">
+<span>Meeting / call</span>
+<span style="justify-self: start; padding: 6px 18px; background: #F3DCDC; color: {{maroon}}; border-radius: 8px; font-weight: 700; font-size: 27px">Quiet Vibe</span>
+</div>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; align-items: center; padding: 24px 32px; border-top: 2px solid #E6DCCF; font-size: 30px">
+<span>Deep work seharian</span>
+<span style="display: flex; flex-wrap: wrap; gap: 10px">
+<span style="padding: 6px 18px; background: #F3DCDC; color: {{maroon}}; border-radius: 8px; font-weight: 700; font-size: 27px">Fast WiFi</span>
+<span style="padding: 6px 18px; background: #E1E9CF; color: #3F5226; border-radius: 8px; font-weight: 700; font-size: 27px">Plenty Outlets</span>
+</span>
+</div>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; align-items: center; padding: 24px 32px; border-top: 2px solid #E6DCCF; font-size: 30px">
+<span>Lembur deadline</span>
+<span style="justify-self: start; padding: 6px 18px; background: #E9E3D4; color: #4A3F2A; border-radius: 8px; font-weight: 700; font-size: 27px">Open 24h</span>
+</div>
+</div>
+</div>
+<div style="display: flex; justify-content: space-between; align-items: center">
+<span style="font-size: 24px; font-weight: 500; color: #6E605B">@wfcditasik</span>
+<span style="font-family: 'Caveat', cursive; font-weight: 700; font-size: 44px; color: {{maroon}}">geser →</span>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"maroon":{"editor":"color","default":"#7A1C1C"},"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+renderVals() {
+return { maroon: this.props.maroon ?? '#7A1C1C' };
+}
+}
+</script>
+</body>
+</html>

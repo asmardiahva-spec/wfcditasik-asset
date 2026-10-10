@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Tip 5: Jangan WFC sendirian terus</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&amp;family=Caveat:wght@600;700&amp;display=swap">
+<style>body{margin:0}</style>
+</helmet>
+<div style="width: 1080px; height: 1350px; box-sizing: border-box; padding: 88px; background: #FFFFFF; color: #2B2424; font-family: 'Plus Jakarta Sans', sans-serif; display: flex; flex-direction: column; justify-content: space-between">
+<div style="display: flex; justify-content: space-between; align-items: center; font-size: 24px; font-weight: 500; color: #6E605B">
+<span>Tips WFC  /  Tip 05</span>
+<span>06 / 07</span>
+</div>
+<div style="display: flex; flex-direction: column; gap: 36px">
+<div style="display: flex; align-items: center; gap: 28px">
+<span style="flex: none; width: 104px; height: 104px; border-radius: 22px; background: #EEF3E2; display: flex; align-items: center; justify-content: center"><svg width="68" height="68" viewBox="0 0 64 64" fill="none" stroke="{{maroon}}" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 26h20v13a8 8 0 0 1-8 8h-4a8 8 0 0 1-8-8z"></path><path d="M37 26h20v13a8 8 0 0 1-8 8h-4a8 8 0 0 1-8-8z" fill="#D5E0BC"></path><path d="M16 19c0-2 2-2 2-5M46 19c0-2 2-2 2-5"></path><path d="M5 55h54"></path></svg></span>
+<span style="font-family: 'Caveat', cursive; font-weight: 700; font-size: 56px; color: {{maroon}}; transform: rotate(-3deg)">tip no. 5</span>
+</div>
+<h2 style="margin: 0; font-weight: 800; font-size: 88px; line-height: 1.04; letter-spacing: -0.04em; color: {{maroon}}">Jangan WFC sendirian terus.</h2>
+<p style="margin: 0; font-size: 36px; line-height: 1.45">Kerja bareng orang lain bikin lebih semangat. Siapa tahu dapat teman baru, ide segar, atau kolaborasi.</p>
+<div style="display: flex; gap: 24px; align-items: flex-start; padding: 32px 36px; background: #D5E0BC; border-radius: 16px">
+<svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="{{maroon}}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 2px"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM23 21v-2a4 4 0 0 0-3-3.9M16 3.1a4 4 0 0 1 0 7.8"></path></svg>
+<div style="display: flex; flex-direction: column; gap: 10px">
+<span style="font-size: 30px; font-weight: 800; color: {{maroon}}">WFCbareng</span>
+<span style="font-size: 30px; line-height: 1.45">Yuk, coworking bareng @wfcditasik setiap hari Kamis!</span>
+</div>
+</div>
+</div>
+<div style="display: flex; justify-content: space-between; align-items: center">
+<span style="font-size: 24px; font-weight: 500; color: #6E605B">@wfcditasik</span>
+<span style="font-family: 'Caveat', cursive; font-weight: 700; font-size: 44px; color: {{maroon}}">geser →</span>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"maroon":{"editor":"color","default":"#7A1C1C"},"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+renderVals() {
+return { maroon: this.props.maroon ?? '#7A1C1C' };
+}
+}
+</script>
+</body>
+</html>

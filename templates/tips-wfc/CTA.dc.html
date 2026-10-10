@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>CTA: Cari cafe WFC</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&amp;family=Caveat:wght@600;700&amp;display=swap">
+<style>body{margin:0}</style>
+</helmet>
+<div style="width: 1080px; height: 1350px; box-sizing: border-box; padding: 88px; background: #FFFFFF; color: #2B2424; font-family: 'Plus Jakarta Sans', sans-serif; display: flex; flex-direction: column; justify-content: space-between; align-items: center; text-align: center; position: relative; overflow: hidden">
+<svg width="124" height="124" viewBox="0 0 64 64" fill="none" stroke="{{maroon}}" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="position: absolute; right: 84px; top: 116px; transform: rotate(8deg)"><path d="M12 26h32v14a12 12 0 0 1-12 12h-8a12 12 0 0 1-12-12z" fill="#D5E0BC"></path><path d="M44 30h4a6 6 0 0 1 0 12h-5"></path><path d="M22 19c0-3 3-3 3-7M31 19c0-3 3-3 3-7"></path><path d="M8 58h40"></path></svg>
+<svg width="116" height="116" viewBox="0 0 64 64" fill="none" stroke="{{maroon}}" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="position: absolute; left: 88px; bottom: 200px; transform: rotate(-4deg)"><path d="M22 40h20l-3 18H25z" fill="#D5E0BC"></path><path d="M32 40V24M32 32c-8 0-12-6-12-12 8 0 12 6 12 12zM32 28c0-8 6-12 12-12 0 8-6 12-12 12z"></path></svg>
+<span style="font-size: 24px; font-weight: 500; color: #6E605B">@wfcditasik</span>
+<div style="display: flex; flex-direction: column; align-items: center; gap: 40px">
+<span style="font-family: 'Caveat', cursive; font-weight: 700; font-size: 64px; color: {{maroon}}; transform: rotate(-3deg)">suka tips kayak gini?</span>
+<h2 style="margin: 0; font-weight: 800; font-size: 108px; line-height: 1.02; letter-spacing: -0.045em; color: {{maroon}}">yuk, WFC <span style="background: #D5E0BC; padding: 0 18px; border-radius: 8px">bareng-bareng.</span></h2>
+<p style="margin: 0; font-size: 34px; line-height: 1.45; max-width: 780px">Tips kerja remote, cafe WFC di Tasik, dan ajakan coworking bareng tiap Kamis.</p>
+<span style="padding: 26px 48px; background: {{maroon}}; color: #FFFFFF; border-radius: 999px; font-size: 38px; font-weight: 800">Follow @wfcditasik</span>
+</div>
+<div style="display: flex; flex-direction: column; gap: 6px; font-size: 28px; line-height: 1.45; color: #6E605B">
+<span style="font-weight: 700; color: {{maroon}}">Simpan post ini &amp; follow biar nggak ketinggalan tips berikutnya.</span>
+<span>Tag teman yang suka WFC juga.</span>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"maroon":{"editor":"color","default":"#7A1C1C"},"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+renderVals() {
+return { maroon: this.props.maroon ?? '#7A1C1C' };
+}
+}
+</script>
+</body>
+</html>

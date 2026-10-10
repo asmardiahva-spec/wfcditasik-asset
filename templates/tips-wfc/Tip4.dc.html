@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Tip 4: Etika WFC</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&amp;family=Caveat:wght@600;700&amp;display=swap">
+<style>body{margin:0}</style>
+</helmet>
+<div style="width: 1080px; height: 1350px; box-sizing: border-box; padding: 88px; background: #FFFFFF; color: #2B2424; font-family: 'Plus Jakarta Sans', sans-serif; display: flex; flex-direction: column; justify-content: space-between">
+<div style="display: flex; justify-content: space-between; align-items: center; font-size: 24px; font-weight: 500; color: #6E605B">
+<span>Tips WFC  /  Tip 04</span>
+<span>05 / 07</span>
+</div>
+<div style="display: flex; flex-direction: column; gap: 36px">
+<div style="display: flex; align-items: center; gap: 28px">
+<span style="flex: none; width: 104px; height: 104px; border-radius: 22px; background: #EEF3E2; display: flex; align-items: center; justify-content: center"><svg width="68" height="68" viewBox="0 0 64 64" fill="none" stroke="{{maroon}}" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 35h22l-2.2 20a2.5 2.5 0 0 1-2.5 2.3H25.7a2.5 2.5 0 0 1-2.5-2.3z" fill="#D5E0BC" stroke="none"></path><path d="M18 14h28l-4 42a4 4 0 0 1-4 4H26a4 4 0 0 1-4-4z"></path><path d="M20 32h24"></path><path d="M38 4l-4 30"></path></svg></span>
+<span style="font-family: 'Caveat', cursive; font-weight: 700; font-size: 56px; color: {{maroon}}; transform: rotate(-3deg)">tip no. 4 · etika WFC</span>
+</div>
+<h2 style="margin: 0; font-weight: 800; font-size: 84px; line-height: 1.04; letter-spacing: -0.04em; color: {{maroon}}">Jadi tamu yang menyenangkan.</h2>
+<div style="display: flex; flex-direction: column; gap: 24px; font-size: 32px; line-height: 1.4">
+<div style="display: flex; gap: 22px; align-items: flex-start">
+<span style="flex: none; width: 36px; height: 36px; margin-top: 4px; border-radius: 6px; background: {{maroon}}; display: flex; align-items: center; justify-content: center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L19 7"></path></svg></span>
+<span>Pesan lagi tiap 2–3 jam kalau kerja seharian.</span>
+</div>
+<div style="display: flex; gap: 22px; align-items: flex-start">
+<span style="flex: none; width: 36px; height: 36px; margin-top: 4px; border-radius: 6px; background: {{maroon}}; display: flex; align-items: center; justify-content: center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L19 7"></path></svg></span>
+<span>Kalau datang sendiri, pilih meja yang pas ukurannya.</span>
+</div>
+<div style="display: flex; gap: 22px; align-items: flex-start">
+<span style="flex: none; width: 36px; height: 36px; margin-top: 4px; border-radius: 6px; background: {{maroon}}; display: flex; align-items: center; justify-content: center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L19 7"></path></svg></span>
+<span>Pakai earphone saat meeting atau call.</span>
+</div>
+<div style="display: flex; gap: 22px; align-items: flex-start">
+<span style="flex: none; width: 36px; height: 36px; margin-top: 4px; border-radius: 6px; border: 3px solid #B9AAA0; box-sizing: border-box"></span>
+<span style="color: #6E605B">Gantian colokan kalau baterai sudah aman. <span style="font-family: 'Caveat', cursive; font-weight: 700; font-size: 38px; color: {{maroon}}">(kecil, tapi berarti)</span></span>
+</div>
+</div>
+</div>
+<div style="display: flex; justify-content: space-between; align-items: center">
+<span style="font-size: 24px; font-weight: 500; color: #6E605B">@wfcditasik</span>
+<span style="font-family: 'Caveat', cursive; font-weight: 700; font-size: 44px; color: {{maroon}}">geser →</span>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"maroon":{"editor":"color","default":"#7A1C1C"},"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+renderVals() {
+return { maroon: this.props.maroon ?? '#7A1C1C' };
+}
+}
+</script>
+</body>
+</html>
