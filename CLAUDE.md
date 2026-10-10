@@ -32,6 +32,9 @@ Pillars (check the Pillar column in topics.md and keep this rough mix):
 Photos: never ask Diah for photos or member details. Default to the built-in line drawings. Optionally use real event photos from her Google Drive (Google Drive connector) when they clearly fit and look good (polaroid frame), otherwise skip photos:
 - "2026 - RW Hangout" folder id 1RSPFzpm8nWWF9nDJTukU7g5Q5j4Dbg2G (Remote Worker Hangout = RWH, sister community of WFCditasik): subfolders RW Hangout Vol 1–4, e.g. Vol 3 > "Foto" (1W_cQB8oBzJpjUrlebUkdKhpJPJiph9kZ, 100+ photos), Vol 2 > "Vol 2" (1i7TXBMVp19EqLuBQWpYikPXd989tlT5P)
 - "2026 - WFCditasik" folder id 1LppiND7ro_4KpNzwKB17ajSWApEVnubW (subfolder "WFCbareng Dokum")
+- "WFCbareng" folder id 17ktQaAh529frxK4_pY5R9lx3x0R5mGIL (shared from englishspotbykerang@gmail.com; one subfolder per Thursday session, e.g. "Kamis, 3 Sep 2026") — best source for WFCbareng/community photos
+- "Remote Worker Hangout" folder id 1ZQWPwlv6fR5KCX-5hdcGRKvvMUljIhdU (shared from englishspotbykerang@gmail.com)
+- Search inside with the Drive connector: `parentId = '<folder id>'`, then go into subfolders.
 - Most files are iPhone HEIC: convert with `pip install --break-system-packages pillow-heif` then Pillow (register_heif_opener) to JPG before use. Look at a photo before using it; pick bright, natural, flattering shots; never a close-up of one identifiable person without context.
 
 ## Metricool
