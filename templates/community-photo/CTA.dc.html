@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>CTA: Coworking bareng</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&amp;family=Caveat:wght@600;700&amp;display=swap">
+<style>body{margin:0}</style>
+</helmet>
+<div style="position: relative; width: 1080px; height: 1350px; box-sizing: border-box; padding: 88px; background: #FFFFFF; color: #2B2424; font-family: 'Plus Jakarta Sans', sans-serif; display: flex; flex-direction: column; justify-content: space-between; align-items: center; text-align: center; overflow: hidden">
+<span style="font-size: 24px; font-weight: 500; color: #6E605B">@wfcditasik</span>
+<div style="display: flex; flex-direction: column; align-items: center; gap: 40px">
+<div style="padding: 16px; background: #FFFFFF; border: 1px solid #E6DCCF; border-radius: 6px; box-shadow: 0 16px 36px rgba(43,36,36,0.14); transform: rotate(3deg)">
+<img src="file:///tmp/claude-0/-home-claude/26c580d2-aed9-5449-8093-2c7ca95f56cc/scratchpad/photos/r_cta.jpg" alt="Suasana coworking WFCbareng" style="display: block; width: 520px; height: 460px; object-fit: cover; border-radius: 2px">
+</div>
+<span style="font-family: 'Caveat', cursive; font-weight: 700; font-size: 56px; color: {{maroon}}; transform: rotate(-3deg)">sampai ketemu hari Kamis!</span>
+<h2 style="margin: 0; font-weight: 800; font-size: 80px; line-height: 1.04; letter-spacing: -0.045em; color: {{maroon}}">Yuk, coworking <span style="background: #D5E0BC; padding: 0 14px; border-radius: 8px">bareng.</span></h2>
+<span style="padding: 24px 46px; background: {{maroon}}; color: #FFFFFF; border-radius: 999px; font-size: 36px; font-weight: 800">Follow @wfcditasik</span>
+</div>
+<span style="font-size: 27px; line-height: 1.45; color: #6E605B">Bawa laptop, pesan minuman favoritmu, kerja bareng kami.</span>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"maroon":{"editor":"color","default":"#7A1C1C"},"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+renderVals() {
+return { maroon: this.props.maroon ?? '#7A1C1C' };
+}
+}
+</script>
+</body>
+</html>

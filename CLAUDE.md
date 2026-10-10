@@ -43,3 +43,7 @@ Photos: never ask Diah for photos or member details. Default to the built-in lin
 ## Metricool
 - Brand blogId 4176662 (Instagram @wfcditasik), timezone Asia/Jakarta.
 - Media = raw GitHub URLs: https://raw.githubusercontent.com/asmardiahva-spec/wfcditasik-asset/main/carousels/<folder>/slide-NN.png
+
+## Reference designs
+- templates/tips-wfc: tips carousel with line drawings (7 slides)
+- templates/community-photo: approved 3-slide community post with retouched WFCbareng photos in polaroid frames (PNG previews included; img src paths point to a temp folder, replace with your retouched photo paths)
