@@ -35,6 +35,9 @@ Photos: never ask Diah for photos or member details. Default to the built-in lin
 - "WFCbareng" folder id 17ktQaAh529frxK4_pY5R9lx3x0R5mGIL (shared from englishspotbykerang@gmail.com; one subfolder per Thursday session, e.g. "Kamis, 3 Sep 2026") — best source for WFCbareng/community photos
 - "Remote Worker Hangout" folder id 1ZQWPwlv6fR5KCX-5hdcGRKvvMUljIhdU (shared from englishspotbykerang@gmail.com)
 - Search inside with the Drive connector: `parentId = '<folder id>'`, then go into subfolders.
+- ALWAYS retouch photos so they look professional: run `tools/retouch_photo.py` (straighten, crop to the exact frame size with people/drinks in frame, bright natural exposure, gentle contrast, subtle warm tone, light sharpening). Look at the result; never use a dark, blurry or crooked photo.
+- ALWAYS position precisely: photos and text centered or aligned to the 88px margins, equal spacing between blocks, polaroid frames the same size/border on every slide, consistent tilt (±3–4°), nothing touching edges or overlapping text. Check every rendered PNG for alignment before sending.
+- Downloads come via the Drive connector `download_file_content` (saved to a JSON file with base64 `content`); files over ~5 MB break the connector, so prefer HEIC/JPG files under ~4 MB.
 - Most files are iPhone HEIC: convert with `pip install --break-system-packages pillow-heif` then Pillow (register_heif_opener) to JPG before use. Look at a photo before using it; pick bright, natural, flattering shots; never a close-up of one identifiable person without context.
 
 ## Metricool
