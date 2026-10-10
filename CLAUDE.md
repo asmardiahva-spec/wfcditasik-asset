@@ -20,6 +20,17 @@ Public image host for @wfcditasik Instagram carousels (Metricool pulls images fr
 - WFCbareng: only as an invite to cowork with @wfcditasik every Thursday. Never name the cafe or location.
 - Never invent cafe names, WiFi speeds, prices or dates.
 
+## Content strategy
+WFCditasik = the ecosystem of working from anywhere in Tasikmalaya: community + media + lifestyle/culture + events + skill growth. Educate, but also embrace the culture and lifestyle.
+
+Pillars (check the Pillar column in topics.md and keep this rough mix):
+- **Skills & Tools (~40%)** — tool recommendations, productivity, career, client communication, skills in demand, being a smart/skillful/good worker, Gen Z work life, dreams, quality of life.
+- **Lifestyle & Culture (~40%)** — fun, shareable posts: e.g. "Minuman kamu = kerjaan kamu" (drink vs job), "Tipe-tipe orang WFC" (playful, never mean), WFC bingo, focus playlists, kopi vs matcha.
+- **Community (~10%)** — only ideas that need NO photos or member details: "Kenapa kerja bareng bikin lebih semangat", "Kamu tim kopi atau tim matcha?" (comment prompt), WFCbareng invite (every Thursday, no location).
+- **Trending (~10%, only when there's a strong hook)** — react to something current/viral in work, career, AI, remote work or the industry (search the web that morning; prefer Indonesian/Gen Z relevance). Explain what it means for workers and how to stay smart and skillful. Facts must come from real sources; mention the source in the caption.
+
+Photos: never ask Diah for photos or member details. Default to the built-in line drawings. Optionally search her Google Drive for WFCditasik / WFCbareng event photos; use one only if it clearly fits and looks good (polaroid frame), otherwise skip photos.
+
 ## Metricool
 - Brand blogId 4176662 (Instagram @wfcditasik), timezone Asia/Jakarta.
 - Media = raw GitHub URLs: https://raw.githubusercontent.com/asmardiahva-spec/wfcditasik-asset/main/carousels/<folder>/slide-NN.png
